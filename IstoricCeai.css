@@ -1,0 +1,14 @@
+.istoric a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#butonIstoric{
+    border: none;
+    background-color: darkslategray;
+    font-size: 110%;
+    font-family: 'French Script MT', 'Brush Script MT', 'Kunstler Script',  sans-serif;
+}
+img{
+    width: 70%;
+    height: 70%;
+}

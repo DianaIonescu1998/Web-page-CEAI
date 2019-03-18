@@ -1,0 +1,28 @@
+.patrat{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.backgr_red{
+    background-color: red;
+}
+.backgr_green{
+    background-color: green;
+}
+.backgr_blue{
+    background-color: blue;
+}
+.bord_dotted{
+    border: dotted;
+}
+.bord_dashed{
+    border: dashed;
+}
+.selectat{
+    outline: 3px;
+}
+#log{
+    height: 200px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,239 @@
+body{
+    text-align: center;
+    background-color: hsla(120, 12%, 86%, 0.918);
+    font-size: 1.5em;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3 {
+    font-size: 150%;
+    color: #9900cc;
+    font-family: "Edwardian Script ITC",  "French Script MT", "Times New Roman", sans-serif;
+}
+h4{
+    color: darkslategray;
+}
+footer{
+    background-color: #9900cc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50%;
+    display: block;
+    bottom: 0;
+    left:0;
+    position: fixed;
+    color :whitesmoke;
+    width:100%;  
+    height: auto;
+}
+footer span{
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+footer a{
+    color: whitesmoke;
+}
+.ceai{
+ background-image: url("pexels-photo-938962.jpeg");
+
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#definitie{
+    background-color: hsla(120, 12%, 86%, 0.918);
+}
+/* medicinaNaturista */
+
+.planteMedicinale{
+    
+    width: 80%;
+    border-spacing: 2px;
+    color: white;
+    text-shadow: 1px 1px black; 
+}
+.planteMedicinale tr {
+background-color: rgba(58, 182, 20, 0.863);
+opacity: 0.7;
+font-weight: bold;
+}
+.imaginiMedicina{
+    padding: 0;
+    width: auto;
+    height: 25%;
+    animation-name: animimg;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+ a>img{
+     width: 25%;
+     height: 25%;
+ }
+ @keyframes animimg{
+     0%{opacity: 0.25;}
+     25%{opacity: 0.5;}
+     50%{opacity: 0.75;}
+     75%{opacity: 1;}  
+ }
+/* tipuriCeai */
+
+#aSanatate {
+    text-decoration: none;
+    color: white;
+
+    border-radius: 4px;
+    border: none;
+    background-color: #00b300;
+    box-shadow: 0px 5px rgb(170, 163, 163);
+}
+
+
+#tipuriCeai {
+    text-decoration: none;
+    color: black;
+    background-color: hsla(280, 100%, 75%, 0.877);
+    box-shadow: 0px 4px rgb(170, 163, 163);
+    border-radius: 4px;
+    border: none;
+}
+
+.gridCeaiuri{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkslategray;
+    padding: 0.5vw;
+    
+}
+.clasaCeaiuri{
+    background-color: hsla(120, 12%, 86%, 0.918);
+    text-align: left;
+    border: 0.2vw solid darkslategray;
+}
+.clasaCeaiuri>h4{
+    text-align: center;
+}
+#spanCeaiuri{
+    display: block;
+}
+/* medicina naturista */
+.imagini{
+    width: 100%;
+    height: 30%;
+}
+.imagini img{
+   box-sizing: content-box;
+    
+}
+/* temperatura de fierbere a apei */
+
+.gridCeai{
+    display: block;
+    margin: 0 auto;
+}
+.titlu{
+    text-decoration: underline;
+}
+
+
+/* galerie foto */
+.galerieFoto{
+    background-color: rgb(47, 79, 79);
+    color:rgb(53, 165, 165);
+    font-size: 150%;
+}
+.galerieFoto h2{
+    color: hsla(120, 12%, 86%, 0.918)
+}
+.galerieFoto img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+.galerieFoto img:hover{
+    border-radius: 0;
+}
+.galerieFoto i {
+    border: solid hsla(120, 12%, 86%, 0.918);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    font-size: 15px;
+    padding: 3px;
+  }
+  .up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    
+}
+
+/* preparareCeai */
+.gridCeai{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    
+}
+div.gridCeai>div{
+    background-color: darkslategray;
+    border: 1px solid whitesmoke;
+    text-align:center;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+/* responsive design */
+@media only screen and (max-width: 700px) {
+    .galerieFoto img{
+        width: 40%;
+        height: 40%;
+        padding: 1em;
+    }
+    .planteMedicinale{
+        overflow-x: auto;
+    }
+    body{
+        font-size: 1em;
+    }
+    table{
+        overflow-x:auto;
+    }
+    .gridCeaiuri{
+        display:grid;
+        grid-template-columns: auto auto;
+        background-color: darkslategray;
+        padding: 0.5vw;
+    }
+}
+ol>li{
+   text-align: center; 
+   list-style-position: inside;
+}
+ol>li a{
+    text-decoration: none;
+    color:black;
+}
+ol>li a:hover{
+    color: #9900cc;
+}
+aside{
+    background-color: hsla(120, 12%, 86%, 0.918);
+    text-align: center;
+}
+@keyframes animatie{
+    from{
+        background-color: #9900cc ;
+        color: hsla(120, 12%, 86%, 0.918);
+    }
+   to{
+    
+    background-color: hsla(120, 12%, 86%, 0.918) ;
+    color: black;
+    }
+
+}
+#quote{
+    animation-name: animatie;
+    animation-duration: 4s;
+}
